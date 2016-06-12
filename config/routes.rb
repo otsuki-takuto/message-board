@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'message/index'
+
   get 'messages/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
